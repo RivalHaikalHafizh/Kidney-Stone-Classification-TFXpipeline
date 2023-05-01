@@ -1,0 +1,15 @@
+# Submission 1: Kidney_Stone_Classification
+
+Nama:Rival Haikal Hafizh
+
+Username dicoding:rivalhaikalhafizh
+
+|                         | Deskripsi                                                                                                                                                                                                                                                                                                             |
+| ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dataset                 | [kidney Stone Prediction](https://www.kaggle.com/competitions/playground-series-s3e12/data?select=train.csv)                                                                                                                                                                                                          |
+| Masalah                 | Penyakit salah satu masalah yang pasti selalu ditemui di dunia ini salah satunya yaitu batu ginjal ada beberapa faktor yang dapat menjadi indikasi adanya batu ginjal dan sering kali seorang dokter mebutuhkan waktu yang cukup untuk mengetahuinya dan pasien pun harus pergi ke dokter untuk melakukan pemeriksaan |
+| Solusi machine learning | Maka dari itu perlu adanya machine learning yang dapat membantu memperkirakan indikasi adanya gelaja batu ginjal atau tidak untuk mempermudah dokter dan pasien                                                                                                                                                       |
+| Metode pengolahan       | Dataset ini memiliki tipe data numerik ada yang integer dan float Pengolahan data yang dilakukan yaitu dengan menerapkan normalisasi pada data numerik tersebut                                                                                                                                                       |
+| Arsitektur model        | Menggunakan dense layer dengan fungsi aktivasi relu dan dropout layer dan pada layer output menerapkan fungsi aktivasi sigmoid                                                                                                                                                                                        |
+| Metrik evaluasi         | Metrik yang diterapkan yaitu BinaryAccuracy,TruePositive, FalsePositive, TrueNegative, FalseNegative                                                                                                                                                                                                                  |
+| Performa model          | Model menghasilkan akurasi ,binary_accuracy 0.9750 dan val_binary_accuracy sebesar 0.7140.                                                                                                                                                                                                                            |
